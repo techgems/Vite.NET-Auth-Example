@@ -10,4 +10,6 @@ By compiling the solution you will also do the installation of the npm dependenc
 But you will need to run the migrations for the database for the project to work. 
 You can do this by running `dotnet ef database update` in the root of the project.
 
-With this done you can run the project and you should be able to login and see the protected page with an integrated Vite SPA.
+With this done you can run the project and you should be able to create your account. 
+
+Once you create your account, you can access the route "/Secret" and see the protected page with an integrated Vite SPA.
